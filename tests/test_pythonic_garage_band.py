@@ -147,6 +147,13 @@ def test_to_list():
     assert len(all_bands) == 1
     assert all_bands[0] == the_nobodies
 
+def test_musician_name():
+    expected = "John"
+
+    musician = Musician("John","Drummer","rattle boom crash")
+
+    assert expected == musician.name
+
 
 #######################
 # Fixtures

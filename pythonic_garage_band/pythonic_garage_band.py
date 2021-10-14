@@ -24,7 +24,8 @@ class Musician:
     """
     Musician Class
     """
-    def __init__(self,instrument='',solo=''):
+    def __init__(self,name,instrument='',solo=''):
+        self.name = name
         self.instrument = instrument
         self.solo = solo
 
